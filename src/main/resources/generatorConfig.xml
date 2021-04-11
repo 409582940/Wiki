@@ -4,6 +4,8 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 
 <generatorConfiguration>
+    <classPathEntry
+            location="E:\apache-maven-3.5.0\repository\mysql\mysql-connector-java\8.0.13\mysql-connector-java-8.0.13.jar"/>
     <context id="Mysql" targetRuntime="MyBatis3" defaultModelType="flat">
 
         <!-- 自动检查关键字，为关键字增加反引号 -->
@@ -41,7 +43,7 @@
                              type="XMLMAPPER"/>
 
         <!--<table tableName="demo" domainObjectName="Demo"/>-->
-        <!--<table tableName="ebook"/>-->
+        <table tableName="ebook"/>
         <!--<table tableName="category"/>-->
         <!--<table tableName="doc"/>-->
         <!--<table tableName="content"/>-->
