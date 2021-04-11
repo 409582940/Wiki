@@ -6,7 +6,9 @@ import com.zhongbei.wiki.domain.EbookExample;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface EbookMapper {
     long countByExample(EbookExample example);
 

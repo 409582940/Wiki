@@ -3,6 +3,7 @@ package com.zhongbei.wiki.domain;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class EbookExample {
     protected String orderByClause;
 
