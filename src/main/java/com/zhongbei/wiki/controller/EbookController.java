@@ -1,8 +1,9 @@
 package com.zhongbei.wiki.controller;
 
 
-import com.zhongbei.wiki.domain.Ebook;
+import com.zhongbei.wiki.req.EbookReq;
 import com.zhongbei.wiki.resp.CommonResp;
+import com.zhongbei.wiki.resp.EbookResp;
 import com.zhongbei.wiki.service.EbookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,9 +20,9 @@ public class EbookController {
     EbookService ebookService;
 
     @GetMapping("/list")
-    public CommonResp<List<Ebook>> list(String name) {
-        CommonResp<List<Ebook>> resp = new CommonResp<>();
-        List<Ebook> list = ebookService.list(name);
+    public CommonResp<List<EbookResp>> list(EbookReq req) {
+        CommonResp<List<EbookResp>> resp = new CommonResp<>();
+        List<EbookResp> list = ebookService.list(req);
         resp.setContent(list);
         return resp;
     }
