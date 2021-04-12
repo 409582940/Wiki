@@ -2,9 +2,7 @@ package com.zhongbei.wiki.mapper;
 
 import com.zhongbei.wiki.domain.EbookSnapshot;
 import com.zhongbei.wiki.domain.EbookSnapshotExample;
-
 import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
 
 public interface EbookSnapshotMapper {
