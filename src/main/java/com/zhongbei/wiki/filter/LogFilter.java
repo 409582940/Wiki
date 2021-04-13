@@ -1,3 +1,4 @@
+/*
 package com.zhongbei.wiki.filter;
 
  import org.slf4j.Logger;
@@ -30,3 +31,4 @@ Long startTime = System.currentTimeMillis();
        LOG.info("------------- LogFilter 结束 耗时：{} ms -------------", System.currentTimeMillis() - startTime);
     }
  }
+*/

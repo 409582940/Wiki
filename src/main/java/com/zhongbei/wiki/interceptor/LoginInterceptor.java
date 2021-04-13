@@ -1,3 +1,4 @@
+/*
 package com.zhongbei.wiki.interceptor;
 
 import com.alibaba.fastjson.JSON;
@@ -71,3 +72,4 @@ public class LoginInterceptor implements HandlerInterceptor {
 //        LOG.info("LogInterceptor 结束");
     }
 }
+*/
