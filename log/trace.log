@@ -1,277 +1,149 @@
-2021-04-11 15:55:00.149 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 29880 (C:\wiki\target\classes started by 123 in C:\wiki)
-2021-04-11 15:55:00.155 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-11 15:55:00.484 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-04-11 15:55:00.485 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-04-11 15:55:06.679 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
-2021-04-11 15:55:06.817 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
-2021-04-11 15:55:06.818 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-11 15:55:06.818 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-04-11 15:55:07.297 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-11 15:55:07.299 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 6812 ms
-2021-04-11 15:55:11.293 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-11 15:55:12.556 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
-2021-04-11 15:55:12.633 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-11 15:55:12.704 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8083"]
-2021-04-11 15:55:12.752 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8083 (http) with context path ''
-2021-04-11 15:55:12.872 INFO  com.zhongbei.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 16.349 seconds (JVM running for 27.32)
-2021-04-11 15:55:12.884 INFO  com.zhongbei.wiki.config.WikiApplication          :26   [32m                  [0;39m 启动成功！！
-2021-04-11 15:55:12.885 INFO  com.zhongbei.wiki.config.WikiApplication          :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8083
-2021-04-11 15:56:18.989 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
-2021-04-11 15:56:18.993 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-11 15:56:19.226 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 29880 (C:\wiki\target\classes started by 123 in C:\wiki)
-2021-04-11 15:56:19.227 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-11 15:56:19.953 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
-2021-04-11 15:56:19.955 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
-2021-04-11 15:56:19.957 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-11 15:56:19.958 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-04-11 15:56:20.085 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-11 15:56:20.086 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 847 ms
-2021-04-11 15:56:20.443 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-11 15:56:20.619 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
-2021-04-11 15:56:20.657 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-11 15:56:20.685 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8083"]
-2021-04-11 15:56:20.698 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8083 (http) with context path ''
-2021-04-11 15:56:20.712 INFO  com.zhongbei.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 1.588 seconds (JVM running for 95.169)
-2021-04-11 15:56:20.718 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2021-04-11 15:56:20.721 INFO  com.zhongbei.wiki.config.WikiApplication          :26   [32m                  [0;39m 启动成功！！
-2021-04-11 15:56:20.723 INFO  com.zhongbei.wiki.config.WikiApplication          :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8083
-2021-04-11 15:56:24.809 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
-2021-04-11 15:56:24.812 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-11 15:56:24.926 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 29880 (C:\wiki\target\classes started by 123 in C:\wiki)
-2021-04-11 15:56:24.927 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-11 15:56:25.367 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
-2021-04-11 15:56:25.369 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
-2021-04-11 15:56:25.370 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-11 15:56:25.371 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-04-11 15:56:25.501 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-11 15:56:25.501 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 569 ms
-2021-04-11 15:56:25.702 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-11 15:56:25.831 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
-2021-04-11 15:56:25.852 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-11 15:56:25.864 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8083"]
-2021-04-11 15:56:25.871 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8083 (http) with context path ''
-2021-04-11 15:56:25.878 INFO  com.zhongbei.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 1.014 seconds (JVM running for 100.335)
-2021-04-11 15:56:25.880 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2021-04-11 15:56:25.880 INFO  com.zhongbei.wiki.config.WikiApplication          :26   [32m                  [0;39m 启动成功！！
-2021-04-11 15:56:25.881 INFO  com.zhongbei.wiki.config.WikiApplication          :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8083
-2021-04-11 15:56:41.255 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-11 15:56:41.258 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2021-04-11 15:56:41.263 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 3 ms
-2021-04-11 15:56:51.993 WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver :207  [32m                  [0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2021-04-11 15:57:08.059 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m wiki - Starting...
-2021-04-11 15:57:08.061 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32m                  [0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-04-11 15:57:08.560 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m wiki - Start completed.
-2021-04-11 16:09:38.681 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
-2021-04-11 16:09:38.684 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:09:38.685 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m wiki - Shutdown initiated...
-2021-04-11 16:09:38.711 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m wiki - Shutdown completed.
-2021-04-11 16:09:38.884 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 29880 (C:\wiki\target\classes started by 123 in C:\wiki)
-2021-04-11 16:09:38.885 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-11 16:09:39.661 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
-2021-04-11 16:09:39.665 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:09:39.667 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-11 16:09:39.669 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-04-11 16:09:39.707 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-11 16:09:39.709 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 815 ms
-2021-04-11 16:09:40.063 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:09:40.223 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
-2021-04-11 16:09:40.271 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-11 16:09:40.312 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:09:40.325 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8083 (http) with context path ''
-2021-04-11 16:09:40.336 INFO  com.zhongbei.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 1.538 seconds (JVM running for 894.897)
-2021-04-11 16:09:40.341 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2021-04-11 16:09:40.343 INFO  com.zhongbei.wiki.config.WikiApplication          :26   [32m                  [0;39m 启动成功！！
-2021-04-11 16:09:40.345 INFO  com.zhongbei.wiki.config.WikiApplication          :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8083
-2021-04-11 16:09:43.529 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
-2021-04-11 16:09:43.533 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:09:43.660 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 29880 (C:\wiki\target\classes started by 123 in C:\wiki)
-2021-04-11 16:09:43.661 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-11 16:09:43.950 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
-2021-04-11 16:09:43.951 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:09:43.951 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-11 16:09:43.952 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-04-11 16:09:44.023 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-11 16:09:44.024 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 359 ms
-2021-04-11 16:09:44.160 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:09:44.277 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
-2021-04-11 16:09:44.298 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-11 16:09:44.312 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:09:44.321 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8083 (http) with context path ''
-2021-04-11 16:09:44.328 INFO  com.zhongbei.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 0.716 seconds (JVM running for 898.889)
-2021-04-11 16:09:44.331 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2021-04-11 16:09:44.333 INFO  com.zhongbei.wiki.config.WikiApplication          :26   [32m                  [0;39m 启动成功！！
-2021-04-11 16:09:44.334 INFO  com.zhongbei.wiki.config.WikiApplication          :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8083
-2021-04-11 16:09:59.478 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-11 16:09:59.481 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2021-04-11 16:09:59.486 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 3 ms
-2021-04-11 16:09:59.761 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m wiki - Starting...
-2021-04-11 16:09:59.762 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32m                  [0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-04-11 16:09:59.779 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m wiki - Start completed.
-2021-04-11 16:11:18.798 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
-2021-04-11 16:11:18.800 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:11:18.801 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m wiki - Shutdown initiated...
-2021-04-11 16:11:18.819 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m wiki - Shutdown completed.
-2021-04-11 16:11:18.985 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 29880 (C:\wiki\target\classes started by 123 in C:\wiki)
-2021-04-11 16:11:18.986 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-11 16:11:19.530 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
-2021-04-11 16:11:19.532 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:11:19.533 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-11 16:11:19.533 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-04-11 16:11:19.657 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-11 16:11:19.658 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 662 ms
-2021-04-11 16:11:20.040 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:11:20.244 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
-2021-04-11 16:11:20.285 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-11 16:11:20.312 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:11:20.323 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8083 (http) with context path ''
-2021-04-11 16:11:20.336 INFO  com.zhongbei.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 1.431 seconds (JVM running for 994.908)
-2021-04-11 16:11:20.342 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2021-04-11 16:11:20.343 INFO  com.zhongbei.wiki.config.WikiApplication          :26   [32m                  [0;39m 启动成功！！
-2021-04-11 16:11:20.345 INFO  com.zhongbei.wiki.config.WikiApplication          :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8083
-2021-04-11 16:11:29.236 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-11 16:11:29.238 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2021-04-11 16:11:29.241 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
-2021-04-11 16:11:29.252 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m wiki - Starting...
-2021-04-11 16:11:29.268 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m wiki - Start completed.
-2021-04-11 16:16:06.181 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
-2021-04-11 16:16:06.183 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:16:06.184 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m wiki - Shutdown initiated...
-2021-04-11 16:16:06.205 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m wiki - Shutdown completed.
-2021-04-11 16:16:06.430 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 29880 (C:\wiki\target\classes started by 123 in C:\wiki)
-2021-04-11 16:16:06.431 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-11 16:16:06.908 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
-2021-04-11 16:16:06.910 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:16:06.911 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-11 16:16:06.911 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-04-11 16:16:06.939 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-11 16:16:06.940 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 499 ms
-2021-04-11 16:16:07.317 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:16:07.492 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
-2021-04-11 16:16:07.522 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-11 16:16:07.548 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:16:07.561 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8083 (http) with context path ''
-2021-04-11 16:16:07.572 INFO  com.zhongbei.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 1.255 seconds (JVM running for 1282.167)
-2021-04-11 16:16:07.576 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2021-04-11 16:16:07.578 INFO  com.zhongbei.wiki.config.WikiApplication          :26   [32m                  [0;39m 启动成功！！
-2021-04-11 16:16:07.579 INFO  com.zhongbei.wiki.config.WikiApplication          :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8083
-2021-04-11 16:16:12.176 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
-2021-04-11 16:16:12.179 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:16:12.528 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 29880 (C:\wiki\target\classes started by 123 in C:\wiki)
-2021-04-11 16:16:12.529 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-11 16:16:13.518 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
-2021-04-11 16:16:13.521 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:16:13.524 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-11 16:16:13.525 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-04-11 16:16:13.675 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-11 16:16:13.676 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1138 ms
-2021-04-11 16:16:14.048 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:16:14.164 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
-2021-04-11 16:16:14.185 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-11 16:16:14.203 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:16:14.213 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8083 (http) with context path ''
-2021-04-11 16:16:14.222 INFO  com.zhongbei.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 1.824 seconds (JVM running for 1288.818)
-2021-04-11 16:16:14.225 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2021-04-11 16:16:14.227 INFO  com.zhongbei.wiki.config.WikiApplication          :26   [32m                  [0;39m 启动成功！！
-2021-04-11 16:16:14.228 INFO  com.zhongbei.wiki.config.WikiApplication          :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8083
-2021-04-11 16:16:14.599 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-11 16:16:14.600 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2021-04-11 16:16:14.601 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2021-04-11 16:16:14.616 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m wiki - Starting...
-2021-04-11 16:16:14.629 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m wiki - Start completed.
-2021-04-11 16:17:53.732 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
-2021-04-11 16:17:53.734 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:17:53.736 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m wiki - Shutdown initiated...
-2021-04-11 16:17:53.752 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m wiki - Shutdown completed.
-2021-04-11 16:17:53.946 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 29880 (C:\wiki\target\classes started by 123 in C:\wiki)
-2021-04-11 16:17:53.947 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-11 16:17:54.715 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
-2021-04-11 16:17:54.716 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:17:54.717 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-11 16:17:54.718 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-04-11 16:17:54.872 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-11 16:17:54.873 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 919 ms
-2021-04-11 16:17:55.101 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:17:55.237 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
-2021-04-11 16:17:55.273 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-11 16:17:55.290 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:17:55.301 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8083 (http) with context path ''
-2021-04-11 16:17:55.311 INFO  com.zhongbei.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 1.449 seconds (JVM running for 1389.916)
-2021-04-11 16:17:55.314 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2021-04-11 16:17:55.315 INFO  com.zhongbei.wiki.config.WikiApplication          :26   [32m                  [0;39m 启动成功！！
-2021-04-11 16:17:55.316 INFO  com.zhongbei.wiki.config.WikiApplication          :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8083
-2021-04-11 16:17:56.422 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-11 16:17:56.424 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2021-04-11 16:17:56.427 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
-2021-04-11 16:17:56.451 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m wiki - Starting...
-2021-04-11 16:17:56.473 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m wiki - Start completed.
-2021-04-11 16:17:59.800 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
-2021-04-11 16:17:59.801 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:17:59.802 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m wiki - Shutdown initiated...
-2021-04-11 16:17:59.818 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m wiki - Shutdown completed.
-2021-04-11 16:18:00.027 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 29880 (C:\wiki\target\classes started by 123 in C:\wiki)
-2021-04-11 16:18:00.028 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-11 16:18:00.578 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
-2021-04-11 16:18:00.579 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:18:00.580 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-11 16:18:00.581 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-04-11 16:18:00.606 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-11 16:18:00.606 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 569 ms
-2021-04-11 16:18:00.807 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:18:00.938 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
-2021-04-11 16:18:00.969 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-11 16:18:00.992 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:18:01.005 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8083 (http) with context path ''
-2021-04-11 16:18:01.017 INFO  com.zhongbei.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 1.086 seconds (JVM running for 1395.622)
-2021-04-11 16:18:01.021 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2021-04-11 16:18:01.022 INFO  com.zhongbei.wiki.config.WikiApplication          :26   [32m                  [0;39m 启动成功！！
-2021-04-11 16:18:01.024 INFO  com.zhongbei.wiki.config.WikiApplication          :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8083
-2021-04-11 16:18:28.785 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-11 16:18:28.787 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2021-04-11 16:18:28.789 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2021-04-11 16:18:28.804 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m wiki - Starting...
-2021-04-11 16:18:28.819 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m wiki - Start completed.
-2021-04-11 16:35:36.586 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
-2021-04-11 16:35:36.589 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:35:36.590 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m wiki - Shutdown initiated...
-2021-04-11 16:35:36.613 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m wiki - Shutdown completed.
-2021-04-11 16:35:36.842 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 29880 (C:\wiki\target\classes started by 123 in C:\wiki)
-2021-04-11 16:35:36.843 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-11 16:35:37.398 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
-2021-04-11 16:35:37.399 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:35:37.400 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-11 16:35:37.401 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-04-11 16:35:37.507 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-11 16:35:37.507 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 657 ms
-2021-04-11 16:35:37.746 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:35:37.922 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
-2021-04-11 16:35:37.966 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-11 16:35:37.992 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:35:38.005 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8083 (http) with context path ''
-2021-04-11 16:35:38.017 INFO  com.zhongbei.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 1.28 seconds (JVM running for 2452.699)
-2021-04-11 16:35:38.021 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2021-04-11 16:35:38.023 INFO  com.zhongbei.wiki.config.WikiApplication          :26   [32m                  [0;39m 启动成功！！
-2021-04-11 16:35:38.024 INFO  com.zhongbei.wiki.config.WikiApplication          :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8083
-2021-04-11 16:35:41.348 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
-2021-04-11 16:35:41.352 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:35:41.546 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 29880 (C:\wiki\target\classes started by 123 in C:\wiki)
-2021-04-11 16:35:41.548 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2021-04-11 16:35:42.104 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
-2021-04-11 16:35:42.106 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:35:42.107 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2021-04-11 16:35:42.107 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-04-11 16:35:42.129 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2021-04-11 16:35:42.129 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 576 ms
-2021-04-11 16:35:42.300 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-11 16:35:42.395 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
-2021-04-11 16:35:42.412 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2021-04-11 16:35:42.424 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8083"]
-2021-04-11 16:35:42.430 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8083 (http) with context path ''
-2021-04-11 16:35:42.438 INFO  com.zhongbei.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 0.968 seconds (JVM running for 2457.119)
-2021-04-11 16:35:42.439 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2021-04-11 16:35:42.440 INFO  com.zhongbei.wiki.config.WikiApplication          :26   [32m                  [0;39m 启动成功！！
-2021-04-11 16:35:42.441 INFO  com.zhongbei.wiki.config.WikiApplication          :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8083
-2021-04-11 16:35:48.503 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-11 16:35:48.505 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2021-04-11 16:35:48.507 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2021-04-11 16:35:48.528 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m wiki - Starting...
-2021-04-11 16:35:48.545 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m wiki - Start completed.
+2021-04-13 20:44:46.020 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 22752 (C:\wiki\target\classes started by 123 in C:\wiki)
+2021-04-13 20:44:46.028 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-04-13 20:44:46.370 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-13 20:44:46.371 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-13 20:44:54.973 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
+2021-04-13 20:44:54.986 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
+2021-04-13 20:44:54.987 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-04-13 20:44:54.988 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-13 20:44:55.453 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-04-13 20:44:55.453 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 8957 ms
+2021-04-13 20:44:58.496 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 20:44:59.741 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2021-04-13 20:44:59.810 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-04-13 20:44:59.895 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8083"]
+2021-04-13 20:44:59.925 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8083 (http) with context path ''
+2021-04-13 20:45:00.067 INFO  com.zhongbei.wiki.config.WikiApplication          :61   [32m                  [0;39m Started WikiApplication in 17.35 seconds (JVM running for 24.872)
+2021-04-13 20:45:00.073 INFO  com.zhongbei.wiki.config.WikiApplication          :26   [32m                  [0;39m 启动成功！！
+2021-04-13 20:45:00.074 INFO  com.zhongbei.wiki.config.WikiApplication          :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8083
+2021-04-13 20:46:12.698 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-13 20:46:12.700 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-04-13 20:46:12.703 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2021-04-13 20:46:12.714 INFO  com.zhongbei.wiki.filter.LogFilter                :24   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2021-04-13 20:46:12.715 INFO  com.zhongbei.wiki.filter.LogFilter                :25   [32m                  [0;39m 请求地址: http://localhost:8083/ebook/list GET
+2021-04-13 20:46:12.716 INFO  com.zhongbei.wiki.filter.LogFilter                :26   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-04-13 20:46:13.173 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m wiki - Starting...
+2021-04-13 20:46:14.272 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m wiki - Start completed.
+2021-04-13 20:46:14.905 INFO  com.zhongbei.wiki.filter.LogFilter                :30   [32m                  [0;39m ------------- LogFilter 结束 耗时：2187 ms -------------
+2021-04-13 20:53:22.399 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2021-04-13 20:53:22.414 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 20:53:22.419 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m wiki - Shutdown initiated...
+2021-04-13 20:53:23.322 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m wiki - Shutdown completed.
+2021-04-13 20:53:26.702 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 22752 (C:\wiki\target\classes started by 123 in C:\wiki)
+2021-04-13 20:53:26.703 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-04-13 20:53:29.599 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
+2021-04-13 20:53:29.604 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
+2021-04-13 20:53:29.615 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-04-13 20:53:29.618 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-13 20:53:29.818 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-04-13 20:53:29.821 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 3070 ms
+2021-04-13 20:53:31.600 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginInterceptor' defined in file [C:\wiki\target\classes\com\zhongbei\wiki\interceptor\LoginInterceptor.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhongbei.wiki.interceptor.LoginInterceptor] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1ba53364]
+2021-04-13 20:53:31.603 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-04-13 20:53:31.679 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 20:53:31.896 ERROR org.springframework.boot.SpringApplication        :856  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginInterceptor' defined in file [C:\wiki\target\classes\com\zhongbei\wiki\interceptor\LoginInterceptor.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhongbei.wiki.interceptor.LoginInterceptor] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1ba53364]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:586)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at com.zhongbei.wiki.config.WikiApplication.main(WikiApplication.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.zhongbei.wiki.interceptor.LoginInterceptor] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1ba53364]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:737)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:669)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lorg/springframework/data/redis/core/RedisTemplate;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3062)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2249)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:732)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.core.RedisTemplate
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 common frames omitted
+2021-04-13 20:53:34.481 INFO  com.zhongbei.wiki.config.WikiApplication          :55   [32m                  [0;39m Starting WikiApplication using Java 11.0.4 on f1cd6 with PID 22752 (C:\wiki\target\classes started by 123 in C:\wiki)
+2021-04-13 20:53:34.484 INFO  com.zhongbei.wiki.config.WikiApplication          :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-04-13 20:53:35.825 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8083 (http)
+2021-04-13 20:53:35.828 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8083"]
+2021-04-13 20:53:35.830 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-04-13 20:53:35.832 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-13 20:53:35.920 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-04-13 20:53:35.921 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1410 ms
+2021-04-13 20:53:36.249 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginInterceptor' defined in file [C:\wiki\target\classes\com\zhongbei\wiki\interceptor\LoginInterceptor.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhongbei.wiki.interceptor.LoginInterceptor] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7bf2d501]
+2021-04-13 20:53:36.251 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-04-13 20:53:36.260 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 20:53:36.265 ERROR org.springframework.boot.SpringApplication        :856  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginInterceptor' defined in file [C:\wiki\target\classes\com\zhongbei\wiki\interceptor\LoginInterceptor.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zhongbei.wiki.interceptor.LoginInterceptor] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7bf2d501]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:586)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at com.zhongbei.wiki.config.WikiApplication.main(WikiApplication.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.zhongbei.wiki.interceptor.LoginInterceptor] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7bf2d501]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:737)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:669)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lorg/springframework/data/redis/core/RedisTemplate;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3062)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2249)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:732)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.core.RedisTemplate
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 common frames omitted

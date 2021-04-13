@@ -10,6 +10,7 @@ import com.zhongbei.wiki.resp.EbookResp;
 import com.zhongbei.wiki.util.CopyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ObjectUtils;
 
 import java.util.List;
 
@@ -22,7 +23,10 @@ public class EbookService {
     public List<EbookResp> list(EbookReq req) {
         EbookExample example = new EbookExample();
         EbookExample.Criteria criteria = example.createCriteria();
-        criteria.andNameLike("%" + req.getName() + "%");
+        if (!ObjectUtils.isEmpty(req.getName())){
+            criteria.andNameLike("%" + req.getName() + "%");
+        }
+
         List<Ebook> list = ebookMapper.selectByExample(example);
         List<EbookResp> res = CopyUtil.copyList(list, EbookResp.class);
         return res;
