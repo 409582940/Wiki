@@ -1,6 +1,6 @@
 package com.zhongbei.wiki.req;
 
-public class EbookReq {
+public class EbookReq extends PageReq {
     private Integer id;
     private String name;
 
